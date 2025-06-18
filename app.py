@@ -1,8 +1,3 @@
-from flask import Flask
-from flask_cors import CORS
-import math as mt
-from flask import jsonify
-
 app = Flask(__name__)
 CORS(app)
 
